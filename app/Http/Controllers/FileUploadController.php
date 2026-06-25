@@ -50,7 +50,9 @@ class FileUploadController extends Controller
                     'filename' => $request->file('file')->getClientOriginalName(),
                     'download_url' => $result['download_url'],
                     'view_url' => $result['view_url'],
-                    'uploaded_at' => now()->format('Y-m-d H:i:s')
+                    'uploaded_at' => now()
+                                    ->setTimezone('Asia/Jakarta')
+                                    ->format('Y-m-d H:i:s')
                 ]
             ]);
 
