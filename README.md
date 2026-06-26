@@ -207,7 +207,7 @@ Contoh:
 
 ```text
 google_file_id     : 1abcDEFxyz
-original_filename : CV_Erlan.pdf
+original_filename : Dokumen.pdf
 mime_type         : application/pdf
 file_size         : 1048576
 ```
